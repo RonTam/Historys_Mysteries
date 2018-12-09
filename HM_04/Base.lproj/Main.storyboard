@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="qvB-wy-Pj7" kind="show" id="1BO-WF-0Y6"/>
+                                    <segue destination="qvB-wy-Pj7" kind="show" animates="NO" id="1BO-WF-0Y6"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahH-Sg-yp2">
@@ -41,10 +41,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GL-TR-csp">
-                                <rect key="frame" x="26" y="291" width="322" height="282"/>
+                                <rect key="frame" x="26" y="291" width="322" height="277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">We all know Captain Kidd as the infamous 17th Century Pirate, but William Kidd was for a long time a well respected member of New York City society. His privateering was backed by some of the richest households of New York, and his stories and influence can be found throughout this great city.  After his execution, many believed that he had buried much of his treasure to be found later.  So I have a noble request, do you think you have what it takes to find Captain Kidd's hidden GOLD??? </mutableString>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <mutableString key="text">Hello there laddies! My name is William Latham and if you reading this, it means I am dead.  While I haven't done much notable in my life, there is one thing that I wish to be remembered by.  See this as my last, if only act of redemption amid a lifetime of regrettable sins.  I have found Captail Kidd's treasure.  We all know Captain Kidd as the infamous 17th Century Pirate, but William Kidd was for a long time a well respected member of New York City society. His privateering was backed by some of the richest households of New York, and his stories and influence can be found throughout this great city.  After his execution, many believed that he had buried much of his treasure to be found later.  So I have a noble request, do you think you have what it takes to find Captain Kidd's hidden GOLD??? </mutableString>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -75,8 +75,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0f-ON-nry">
                                 <rect key="frame" x="26" y="350" width="322" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">WELL PROVE IT!  I have created a series of challenges to make sure you have yer wits about you and enough history know how to find Captain Kidd's gold.  When you are ready, hit the START button to get on to the challenge!</string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <mutableString key="text">WELL PROVE IT!  I have created a series of challenges to make sure you have yer wits about you and enough history know how to find Captain Kidd's gold. It won't be easy, but there will be ample clues and hints along the way.  When you are ready, hit the START button to get on to the challenge!</mutableString>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdc-b1-Bfg">
@@ -84,7 +84,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Fx6-gl-i5s" kind="show" id="UUj-dC-E3D"/>
+                                    <segue destination="Fx6-gl-i5s" kind="show" animates="NO" id="UUj-dC-E3D"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="START" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rpq-1I-Tia">
@@ -119,7 +119,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="D4A-9m-LBf" kind="show" id="hMh-Hw-Amb"/>
+                                    <segue destination="D4A-9m-LBf" kind="show" animates="NO" id="hMh-Hw-Amb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9T-Uz-kry">
@@ -127,7 +127,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Fx6-gl-i5s" kind="show" id="FmV-NX-u0E"/>
+                                    <segue destination="Fx6-gl-i5s" kind="show" animates="NO" id="FmV-NX-u0E"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dog-GB-V4r">
@@ -179,26 +179,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Nv9-cn-g96">
-                                <rect key="frame" x="0.0" y="0.0" width="359" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arrrrrr You Ready Gumshoe?  Make Your Way To Our First Clue To Get Started!  Click NEXT When Ready!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Knv-vE-9zu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arrrrrr You Ready Gumshoe?  Make Your Way To Our First Clue To Get Started!  Click NEXT When Ready!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Knv-vE-9zu">
                                 <rect key="frame" x="52" y="0.0" width="273" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_00" translatesAutoresizingMaskIntoConstraints="NO" id="IfQ-nM-aw0">
-                                <rect key="frame" x="39" y="157" width="298" height="386"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8j-qP-F8X">
                                 <rect key="frame" x="100" y="576" width="176" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="lg5-OE-lnT" kind="show" id="9qM-LH-u8N"/>
+                                    <segue destination="lg5-OE-lnT" kind="show" animates="NO" id="9qM-LH-u8N"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDH-J2-OPb">
@@ -208,6 +204,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_00" translatesAutoresizingMaskIntoConstraints="NO" id="IfQ-nM-aw0">
+                                <rect key="frame" x="21" y="145" width="334" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1Ts-sV-q5z"/>
@@ -238,15 +238,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="EG7-X8-oha" kind="show" id="w4j-Ir-tJc"/>
+                                    <segue destination="EG7-X8-oha" kind="show" animates="NO" id="w4j-Ir-tJc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wX-jU-yLJ">
-                                <rect key="frame" x="39" y="364" width="297" height="181"/>
+                                <rect key="frame" x="39" y="364" width="297" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In front of you sits the site of New York's first City Hall, which would later serve as the Capitol of the newly created United States of America. It is on a balcony at this location where General George Washington was sworn in as the first president.
+                                <mutableString key="text">Wecome to Federal Hall.  In front of you sits the site of New York's first City Hall, which would later serve as the Capitol of the newly created United States of America. It is on a balcony at this location where General George Washington was sworn in as the first president.
 
-Find the engraving under the statue of our first Great President to answer your first clue!</string>
+Find the engraving under the statue of our first Great President to answer your first clue!</mutableString>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -264,7 +264,7 @@ Find the engraving under the statue of our first Great President to answer your 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WTP-A3-xZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1718" y="994"/>
+            <point key="canvasLocation" x="1717.5999999999999" y="993.55322338830592"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Sxr-pf-4Oo">
@@ -274,10 +274,11 @@ Find the engraving under the statue of our first Great President to answer your 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="CvH-3A-c8H">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="6hd-ZF-3Ca">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Read the Engaving Under Washington's Statue in Fron of Federal Hall. What is the Date Listed For Washington's Inauguration?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wV8-cy-icA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Read the Engaving Under Washington's Statue in Front of Federal Hall. What is the Date Listed For Washington's Inauguration?" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wV8-cy-icA">
                                 <rect key="frame" x="28" y="14" width="331" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
@@ -289,7 +290,7 @@ Find the engraving under the statue of our first Great President to answer your 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="n8U-eT-mE8" kind="show" id="PxN-Rb-39u"/>
+                                    <segue destination="n8U-eT-mE8" kind="show" animates="NO" id="PxN-Rb-39u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0t-yz-t2t">
@@ -297,7 +298,7 @@ Find the engraving under the statue of our first Great President to answer your 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="n8U-eT-mE8" kind="show" id="ugs-aA-lxY"/>
+                                    <segue destination="n8U-eT-mE8" kind="show" animates="NO" id="ugs-aA-lxY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP3-Bq-MMz">
@@ -305,7 +306,7 @@ Find the engraving under the statue of our first Great President to answer your 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="n8U-eT-mE8" kind="show" id="VUK-sZ-daK"/>
+                                    <segue destination="n8U-eT-mE8" kind="show" animates="NO" id="VUK-sZ-daK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZb-2R-aUL">
@@ -313,7 +314,7 @@ Find the engraving under the statue of our first Great President to answer your 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="dB8-Gj-39g" kind="show" id="zNW-oU-h4U"/>
+                                    <segue destination="dB8-Gj-39g" kind="show" animates="NO" id="zNW-oU-h4U"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dl-fC-oTa">
@@ -321,7 +322,7 @@ Find the engraving under the statue of our first Great President to answer your 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="n8U-eT-mE8" kind="show" id="0J5-1C-8WZ"/>
+                                    <segue destination="n8U-eT-mE8" kind="show" animates="NO" id="0J5-1C-8WZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="July 4th, 1776" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfQ-5o-FiV">
@@ -365,18 +366,12 @@ Find the engraving under the statue of our first Great President to answer your 
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="CvH-3A-c8H" firstAttribute="top" secondItem="Q6o-It-jli" secondAttribute="top" id="Mny-AA-HFx"/>
-                            <constraint firstAttribute="trailing" secondItem="CvH-3A-c8H" secondAttribute="trailing" id="iZP-Ls-pOy"/>
-                            <constraint firstAttribute="bottom" secondItem="CvH-3A-c8H" secondAttribute="bottom" id="rpe-6D-U1U"/>
-                            <constraint firstItem="CvH-3A-c8H" firstAttribute="leading" secondItem="Q6o-It-jli" secondAttribute="leading" id="vxh-tj-Xkw"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lhx-tH-QOR"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="67M-HZ-V4z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2470" y="994"/>
+            <point key="canvasLocation" x="2469.5999999999999" y="993.55322338830592"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7vi-3s-wwG">
@@ -386,8 +381,8 @@ Find the engraving under the statue of our first Great President to answer your 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="KbC-JX-YVf">
-                                <rect key="frame" x="0.0" y="-6641" width="3375" height="7308"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="0ZB-Gx-6TE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="673"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qP3-NS-rDq">
@@ -395,11 +390,11 @@ Find the engraving under the statue of our first Great President to answer your 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="aSL-Zt-zLU" kind="show" id="102-u3-svx"/>
+                                    <segue destination="aSL-Zt-zLU" kind="show" animates="NO" id="102-u3-svx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Well Done!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqW-Vb-pIW">
-                                <rect key="frame" x="20" y="-28" width="335" height="169"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A Perfect Start!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqW-Vb-pIW">
+                                <rect key="frame" x="20" y="20" width="335" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="42"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -416,20 +411,20 @@ Find the engraving under the statue of our first Great President to answer your 
                                 <rect key="frame" x="25" y="77" width="325" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESI-9k-GlB">
-                                <rect key="frame" x="26" y="277" width="322" height="242"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">NYC remained the capital of this nation for only a short period, moving to Philadelphia after an agreement was reached between Alexander Hamiliton and Thomas Jefferson.
-
-Since that time, Federal Hall has served as a Customs House and Treasury Building for the city. The current structure represents one of the best surviving examples of classical architecture in New York.</string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEb-HT-QwM">
                                 <rect key="frame" x="156" y="583" width="62" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESI-9k-GlB">
+                                <rect key="frame" x="20" y="291" width="333" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">NYC remained the capital of this nation for only a short period, moving to Philadelphia after an agreement was reached between Alexander Hamiliton and Thomas Jefferson.
+
+Since that time, Federal Hall has served as a Customs House and Treasury Building for the city. The current structure represents one of the best surviving examples of classical architecture in New York.  It was built in 1842, and has been designated the Federal Hall National Memorial to commemorate the historic events that occurred at the previous structure!</mutableString>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -439,7 +434,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fw0-79-S9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3188" y="994"/>
+            <point key="canvasLocation" x="3188" y="993.55322338830592"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qlw-8U-VtM">
@@ -453,10 +448,10 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Can Smell The GOLD!  Make Your Way To Our Second Clue To Keep This Party Going!  Click NEXT When Ready!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qx-PH-d0A">
-                                <rect key="frame" x="51" y="20" width="273" height="109"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Can Smell The GOLD!  Make Your Way To Our Second Clue To Keep This Party Going!  Click NEXT When Ready!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qx-PH-d0A">
+                                <rect key="frame" x="51" y="14" width="273" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -465,13 +460,9 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="j5k-sh-dNc" kind="show" id="H0S-9J-oXb"/>
+                                    <segue destination="j5k-sh-dNc" kind="show" animates="NO" id="H0S-9J-oXb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_01" translatesAutoresizingMaskIntoConstraints="NO" id="qKE-02-iN6">
-                                <rect key="frame" x="45" y="120" width="284" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bw-p2-aCa">
                                 <rect key="frame" x="156" y="583" width="62" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -479,6 +470,10 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_01" translatesAutoresizingMaskIntoConstraints="NO" id="qKE-02-iN6">
+                                <rect key="frame" x="16" y="109" width="342" height="461"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Op8-Py-Ybf"/>
@@ -486,7 +481,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZR-rp-IQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3860" y="994"/>
+            <point key="canvasLocation" x="3860" y="993.55322338830592"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XEB-vT-Ggj">
@@ -505,7 +500,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="MO3-3r-Cgm" kind="show" id="YiE-Lg-zXF"/>
+                                    <segue destination="MO3-3r-Cgm" kind="show" animates="NO" id="YiE-Lg-zXF"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Trinity_Church" translatesAutoresizingMaskIntoConstraints="NO" id="MoP-pE-af3">
@@ -513,11 +508,11 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNY-bI-l65">
-                                <rect key="frame" x="26" y="398" width="322" height="126"/>
+                                <rect key="frame" x="26" y="414" width="322" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The first anglican church in New York, Trinity was built with the help of many the city's wealthy merchants, as well as one Captain William Kidd, a well respected privateer at the time.
-</string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <mutableString key="text">The first anglican church in New York, Trinity was built with the help of many the city's wealthy merchants, as well as one Captain William Kidd, a well respected privateer at the time.  The Trinity Church has been significant to New York City's history for over 300 Years!
+</mutableString>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6V-Z7-hlx">
@@ -534,7 +529,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mbG-t5-k86" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4554" y="994"/>
+            <point key="canvasLocation" x="4552.8000000000002" y="993.55322338830592"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nIP-if-UEj">
@@ -564,7 +559,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="BvT-Rt-h94" kind="show" id="8tI-g2-Txv"/>
+                                    <segue destination="BvT-Rt-h94" kind="show" animates="NO" id="8tI-g2-Txv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRn-H3-LmG">
@@ -608,7 +603,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="3vy-3K-gMz" kind="show" id="Rvh-G9-Jjl"/>
+                                    <segue destination="3vy-3K-gMz" kind="show" animates="NO" id="Rvh-G9-Jjl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIX-OQ-g5b">
@@ -616,7 +611,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="3vy-3K-gMz" kind="show" id="ez1-kW-eTq"/>
+                                    <segue destination="3vy-3K-gMz" kind="show" animates="NO" id="ez1-kW-eTq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGq-US-Hi5">
@@ -624,7 +619,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="3vy-3K-gMz" kind="show" id="LRt-j9-hAm"/>
+                                    <segue destination="3vy-3K-gMz" kind="show" animates="NO" id="LRt-j9-hAm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fN-LF-nNC">
@@ -632,7 +627,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="qDh-ee-ycP" kind="show" id="flK-hL-1Dg"/>
+                                    <segue destination="qDh-ee-ycP" kind="show" animates="NO" id="flK-hL-1Dg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cy6-An-mVo">
@@ -640,7 +635,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="3vy-3K-gMz" kind="show" id="Jgc-ls-klc"/>
+                                    <segue destination="3vy-3K-gMz" kind="show" animates="NO" id="Jgc-ls-klc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seven Shillings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PtK-uZ-4UH">
@@ -695,32 +690,37 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="MeP-Ue-b4R">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="MeP-Ue-b4R">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bowling_green_plaque" translatesAutoresizingMaskIntoConstraints="NO" id="g12-yK-Scw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bowling_green_plaque" translatesAutoresizingMaskIntoConstraints="NO" id="g12-yK-Scw">
                                 <rect key="frame" x="39" y="90" width="296" height="379"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtA-Pm-5Ve">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtA-Pm-5Ve">
                                 <rect key="frame" x="26" y="470" width="322" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Famously, a gilded statue of King George III was torn down here after the Declaration of Indpendence, and melted into bullets for the Revolutionary War!  Hit NEXT to continue your journey friends!</string>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N27-zZ-geD">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N27-zZ-geD">
                                 <rect key="frame" x="99" y="576" width="177" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="vNP-oo-lR2" kind="show" id="Q2A-bf-Lu7"/>
+                                    <segue destination="vNP-oo-lR2" kind="show" animates="NO" id="Q2A-bf-Lu7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mE5-L0-iNA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mE5-L0-iNA">
                                 <rect key="frame" x="156.5" y="583" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shiver Me Timbers You Got It!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exd-7X-WNC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Shiver Me Timbers You Got It!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exd-7X-WNC">
                                 <rect key="frame" x="14" y="6" width="347" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="gdi-Al-ruX"/>
@@ -731,23 +731,6 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="centerY" secondItem="mE5-L0-iNA" secondAttribute="centerY" id="7oo-gE-7yF"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="leading" secondItem="fn5-72-y7w" secondAttribute="leading" constant="99" id="88S-1u-TqZ"/>
-                            <constraint firstItem="MeP-Ue-b4R" firstAttribute="top" secondItem="6Q6-LH-1Jz" secondAttribute="top" id="Al1-6c-gW7"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="top" secondItem="TtA-Pm-5Ve" secondAttribute="bottom" constant="15" id="DVy-Ye-xOX"/>
-                            <constraint firstItem="g12-yK-Scw" firstAttribute="top" secondItem="Exd-7X-WNC" secondAttribute="bottom" constant="8" symbolic="YES" id="DcV-by-qEB"/>
-                            <constraint firstItem="MeP-Ue-b4R" firstAttribute="bottom" secondItem="fn5-72-y7w" secondAttribute="bottom" id="FAB-Xg-cj9"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="centerX" secondItem="Exd-7X-WNC" secondAttribute="centerX" id="N2B-9K-b4J"/>
-                            <constraint firstItem="MeP-Ue-b4R" firstAttribute="leading" secondItem="6Q6-LH-1Jz" secondAttribute="leading" id="R7B-Np-Rno"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="centerX" secondItem="MeP-Ue-b4R" secondAttribute="centerX" id="Ysb-1g-g7T"/>
-                            <constraint firstItem="Exd-7X-WNC" firstAttribute="top" secondItem="6Q6-LH-1Jz" secondAttribute="topMargin" constant="-14" id="ZSm-pi-m9d"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="centerX" secondItem="6Q6-LH-1Jz" secondAttribute="centerX" id="elt-x6-zou"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="centerX" secondItem="mE5-L0-iNA" secondAttribute="centerX" id="k3L-U4-2EX"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="centerX" secondItem="g12-yK-Scw" secondAttribute="centerX" id="rq2-Te-Wpu"/>
-                            <constraint firstAttribute="bottom" secondItem="N27-zZ-geD" secondAttribute="bottom" constant="45" id="rra-eq-Mir"/>
-                            <constraint firstItem="N27-zZ-geD" firstAttribute="centerX" secondItem="TtA-Pm-5Ve" secondAttribute="centerX" id="uCj-DJ-yAG"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fn5-72-y7w"/>
                     </view>
                 </viewController>
@@ -779,7 +762,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Bxd-aM-bI8" kind="show" id="Dg5-Fe-zYT"/>
+                                    <segue destination="Bxd-aM-bI8" kind="show" animates="NO" id="Dg5-Fe-zYT"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_04" translatesAutoresizingMaskIntoConstraints="NO" id="nnR-Ha-kJD">
@@ -830,7 +813,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Q11-X2-HJL" kind="show" id="MEV-jr-Dtn"/>
+                                    <segue destination="Q11-X2-HJL" kind="show" animates="NO" id="MEV-jr-Dtn"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFT-eA-ZxI">
@@ -877,7 +860,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="61H-JE-TuQ" kind="show" id="t1e-uH-THj"/>
+                                    <segue destination="61H-JE-TuQ" kind="show" animates="NO" id="t1e-uH-THj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uy-P7-peJ">
@@ -885,7 +868,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="AW9-kM-gIb" kind="show" id="j1q-74-GkG"/>
+                                    <segue destination="AW9-kM-gIb" kind="show" animates="NO" id="j1q-74-GkG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-YR-OE9">
@@ -893,7 +876,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="61H-JE-TuQ" kind="show" id="QXa-xK-gT6"/>
+                                    <segue destination="61H-JE-TuQ" kind="show" animates="NO" id="QXa-xK-gT6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74l-rf-flc">
@@ -901,7 +884,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="61H-JE-TuQ" kind="show" id="bCO-qF-gT8"/>
+                                    <segue destination="61H-JE-TuQ" kind="show" animates="NO" id="bCO-qF-gT8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KP-uV-EPO">
@@ -909,7 +892,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="61H-JE-TuQ" kind="show" id="xc8-sO-GC8"/>
+                                    <segue destination="61H-JE-TuQ" kind="show" animates="NO" id="xc8-sO-GC8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Jersey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k40-HZ-IiB">
@@ -991,7 +974,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Q11-X2-HJL" kind="show" id="oGF-x1-n4T"/>
+                                    <segue destination="Q11-X2-HJL" kind="show" animates="NO" id="oGF-x1-n4T"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxf-SV-5CO">
@@ -1036,7 +1019,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4h-tK-KpX">
                                 <rect key="frame" x="18" y="311" width="339" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The legend holds that these ancient Roman columns came from the city destroyed by Mount Vesuvius in 79AD, and while the original Delmonicos burned down during the Great Fire of 1835, these columns remained standing frames the entrace to the restaurant to this day!  Alright then, let's move on to our next spot!  Hit NEXT when you are ready!</string>
+                                <mutableString key="text">The legend holds that these ancient Roman columns came from the city destroyed by Mount Vesuvius in 79AD, and while the original Delmonicos burned down during the Great Fire of 1835, these columns remained standing and frames the entrace to the restaurant to this day!  Alright then, let's move on to our next spot!  Hit NEXT when you are ready!</mutableString>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1045,7 +1028,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="fln-pp-OAH" kind="show" id="WL8-e4-kps"/>
+                                    <segue destination="fln-pp-OAH" kind="show" animates="NO" id="WL8-e4-kps"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zva-c5-1WJ">
@@ -1077,23 +1060,19 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJA-TS-I5p">
-                                <rect key="frame" x="51" y="20" width="273" height="109"/>
+                                <rect key="frame" x="22" y="0.0" width="330" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">All This Walkin' May Have Made You Thirsty For Some Grog.  Make Yer Way Over to Our Next Stop For A Break...and Catch Your Next Clue!  Hit NEXT When Ready!</string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_05" translatesAutoresizingMaskIntoConstraints="NO" id="b4D-4i-pe8">
-                                <rect key="frame" x="46" y="137" width="282" height="388"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jh-hj-rVA">
                                 <rect key="frame" x="99" y="577" width="177" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="U1q-rY-CRz" kind="show" id="pOQ-4i-639"/>
+                                    <segue destination="U1q-rY-CRz" kind="show" animates="NO" id="pOQ-4i-639"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZF-GO-7M6">
@@ -1103,6 +1082,10 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_05" translatesAutoresizingMaskIntoConstraints="NO" id="b4D-4i-pe8">
+                                <rect key="frame" x="11" y="103" width="352" height="466"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3XA-s3-iXB"/>
@@ -1140,7 +1123,7 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="FKW-TI-Ic1" kind="show" id="DxV-Bo-WNA"/>
+                                    <segue destination="FKW-TI-Ic1" kind="show" animates="NO" id="DxV-Bo-WNA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WL6-NF-DKG">
@@ -1196,7 +1179,7 @@ When you are ready, hit BACK To Try Again!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Hba-yq-LsN" kind="show" id="q4G-RY-Fmm"/>
+                                    <segue destination="Hba-yq-LsN" kind="show" animates="NO" id="q4G-RY-Fmm"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EQ-aB-tyQ">
@@ -1234,9 +1217,9 @@ When you are ready, hit BACK To Try Again!
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOe-Qw-YfE">
                                 <rect key="frame" x="26" y="288" width="322" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Near the site of the original Dutch form of New Amsterdam, Bowling Green is the oldest public park in New York City. The original, 18th-century fence remains to capture how this felt centuries earlier.    Bowling Green was the site that Peter Minuit, a director of the Dutch Colony, "bought" Manhattan from the local Lenape Indians for $24 in goods and wampum.   
+                                <mutableString key="text">Near the site of the original Dutch fort of New Amsterdam, Bowling Green is the oldest public park in New York City. The original, 18th-century fence remains to capture how this felt centuries earlier.    Bowling Green was also the site that Peter Minuit, a director of the Dutch Colony, "bought" Manhattan from the local Lenape Indians for $24 in goods and wampum.   
 Hit NEXT To Get Your Clue!
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1245,7 +1228,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Hba-yq-LsN" kind="show" id="VzS-Tz-Gb4"/>
+                                    <segue destination="Hba-yq-LsN" kind="show" animates="NO" id="VzS-Tz-Gb4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJc-jO-2aU">
@@ -1288,13 +1271,9 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="2bR-5C-kbB" kind="show" id="HaJ-bL-rTP"/>
+                                    <segue destination="2bR-5C-kbB" kind="show" animates="NO" id="HaJ-bL-rTP"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_03" translatesAutoresizingMaskIntoConstraints="NO" id="BhL-PC-vWe">
-                                <rect key="frame" x="41" y="101" width="293" height="454"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4B-2X-eIv">
                                 <rect key="frame" x="156" y="583" width="62" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1302,6 +1281,10 @@ Hit NEXT To Get Your Clue!
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_03" translatesAutoresizingMaskIntoConstraints="NO" id="BhL-PC-vWe">
+                                <rect key="frame" x="13" y="85" width="349" height="483"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Cdf-Ik-FMp"/>
@@ -1346,7 +1329,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="fvj-pX-Ajh" kind="show" id="TAV-RN-SCZ"/>
+                                    <segue destination="fvj-pX-Ajh" kind="show" animates="NO" id="TAV-RN-SCZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aC2-TF-Fp3">
@@ -1444,7 +1427,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="aZp-hP-hY2" kind="show" id="ffv-Ev-Ac2"/>
+                                    <segue destination="aZp-hP-hY2" kind="show" animates="NO" id="ffv-Ev-Ac2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsH-PK-LnS">
@@ -1452,7 +1435,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="zOS-ue-CF6" kind="show" id="OU7-GG-bs5"/>
+                                    <segue destination="zOS-ue-CF6" kind="show" animates="NO" id="OU7-GG-bs5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gmc-OE-tjJ">
@@ -1460,7 +1443,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="zOS-ue-CF6" kind="show" id="sBa-ML-J5Z"/>
+                                    <segue destination="zOS-ue-CF6" kind="show" animates="NO" id="sBa-ML-J5Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7U-j2-PFz">
@@ -1468,7 +1451,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="zOS-ue-CF6" kind="show" id="MkO-1Q-WeT"/>
+                                    <segue destination="zOS-ue-CF6" kind="show" animates="NO" id="MkO-1Q-WeT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bip-bT-gmd">
@@ -1476,7 +1459,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="zOS-ue-CF6" kind="show" id="qk7-Lm-R6d"/>
+                                    <segue destination="zOS-ue-CF6" kind="show" animates="NO" id="qk7-Lm-R6d"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tiger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xh0-Mg-oKh">
@@ -1540,9 +1523,9 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ys-Fe-tva">
-                                <rect key="frame" x="26" y="288" width="322" height="211"/>
+                                <rect key="frame" x="26" y="288" width="322" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The Museum of Native American Indian sits on the site of the former Alexander Hamilton US Custom House. Prior to the implementation of an Income Tax, the US Governement's revenue came mostly through the collection of duty at Ports. This building was built in 1902-1907 for this purpose.
+                                <string key="text">The Museum of Native American Indian sits on the site and within the building of the former Alexander Hamilton US Custom House. Prior to the implementation of an Income Tax, the US Governement's revenue came mostly through the collection of duty at shipping ports, and well know of New York City's importance as a Trading Location. This building was built in 1902-1907 for this purpose.
 
 Hit NEXT To Get Your Clue!
 </string>
@@ -1554,7 +1537,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="cPJ-ZP-ZXx" kind="show" id="vgR-jN-Hjf"/>
+                                    <segue destination="cPJ-ZP-ZXx" kind="show" animates="NO" id="vgR-jN-Hjf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYb-ZY-Bul">
@@ -1585,15 +1568,8 @@ Hit NEXT To Get Your Clue!
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The TREASURE is Getting Close!  Make Your Way To Our Third Clue To Keep Up The Momentum!  Click NEXT When Ready!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3k-Wn-Ytc">
-                                <rect key="frame" x="51" y="20" width="273" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
-                                <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_02" translatesAutoresizingMaskIntoConstraints="NO" id="Oda-j5-RLG">
-                                <rect key="frame" x="41" y="129" width="292" height="408"/>
+                                <rect key="frame" x="16" y="114" width="343" height="454"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPS-1b-fiM">
@@ -1601,7 +1577,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="3aM-MR-T6n" kind="show" id="fiq-4t-5jg"/>
+                                    <segue destination="3aM-MR-T6n" kind="show" animates="NO" id="fiq-4t-5jg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQx-EK-6n9">
@@ -1609,6 +1585,13 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The TREASURE is Getting Close!  Make Your Way To Our Third Clue To Keep Up The Momentum!  Click NEXT When Ready!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3k-Wn-Ytc">
+                                <rect key="frame" x="41" y="11" width="302" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1633,30 +1616,26 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGd-Ff-Kzq">
-                                <rect key="frame" x="26" y="392" width="322" height="161"/>
+                                <rect key="frame" x="26" y="392" width="322" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Alexander Hamilton had a long history of conflict with Aaron Burr, and his death further weakened the Federalist party movement. Burr's political reputation was ruined as a result of the duel, and he spent the remainder of his life in relative obscurity.
+                                <string key="text">Alexander Hamilton had a long history of conflict with Aaron Burr, and his death further weakened the Federalist party movement.  However, Aaron Burr didn't do so well either! Burr's political reputation was ruined as a result of the duel, and he spent the remainder of his life in relative obscurity, now to be played as the main villain in New York City's hottest broadway musical!
 </string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Right On!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zkw-1f-d38">
-                                <rect key="frame" x="16" y="20" width="335" height="103"/>
+                                <rect key="frame" x="20" y="13" width="335" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="42"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hamilton_info_full" translatesAutoresizingMaskIntoConstraints="NO" id="fDT-AI-Dtj">
-                                <rect key="frame" x="88" y="103" width="198" height="289"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJM-bn-bau">
                                 <rect key="frame" x="99" y="576" width="176" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="3sk-g4-Uq4" kind="show" id="yPy-ly-rgL"/>
+                                    <segue destination="3sk-g4-Uq4" kind="show" animates="NO" id="yPy-ly-rgL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnt-wt-eO7">
@@ -1666,6 +1645,10 @@ Hit NEXT To Get Your Clue!
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hamilton_info_full" translatesAutoresizingMaskIntoConstraints="NO" id="fDT-AI-Dtj">
+                                <rect key="frame" x="50" y="69" width="274" height="323"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kAt-R7-06h"/>
@@ -1704,7 +1687,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="7LA-iD-wgf" kind="show" id="oX6-sS-OV8"/>
+                                    <segue destination="7LA-iD-wgf" kind="show" animates="NO" id="oX6-sS-OV8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIB-ul-AcL">
@@ -1712,7 +1695,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="s5x-nR-sL8" kind="show" id="ReP-2J-WoE"/>
+                                    <segue destination="s5x-nR-sL8" kind="show" animates="NO" id="ReP-2J-WoE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iM-Xz-teN">
@@ -1720,7 +1703,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="s5x-nR-sL8" kind="show" id="EOU-t6-0QW"/>
+                                    <segue destination="s5x-nR-sL8" kind="show" animates="NO" id="EOU-t6-0QW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxW-gE-T5R">
@@ -1728,7 +1711,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="s5x-nR-sL8" kind="show" id="OCG-uz-cVv"/>
+                                    <segue destination="s5x-nR-sL8" kind="show" animates="NO" id="OCG-uz-cVv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wN6-zP-MOz">
@@ -1736,7 +1719,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="s5x-nR-sL8" kind="show" id="tgY-aN-AfK"/>
+                                    <segue destination="s5x-nR-sL8" kind="show" animates="NO" id="tgY-aN-AfK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thomas Jefferson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuP-VX-5ZE">
@@ -1800,7 +1783,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="BvT-Rt-h94" kind="show" id="ugE-3N-Reh"/>
+                                    <segue destination="BvT-Rt-h94" kind="show" animates="NO" id="ugE-3N-Reh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRC-vm-ceU">
@@ -1854,7 +1837,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="EG7-X8-oha" kind="show" id="3ve-Bz-dmt"/>
+                                    <segue destination="EG7-X8-oha" kind="show" animates="NO" id="3ve-Bz-dmt"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nice Try!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmk-jI-6aj">
@@ -1924,7 +1907,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="1Po-XG-Bcq" kind="show" id="5pf-1O-vqm"/>
+                                    <segue destination="1Po-XG-Bcq" kind="show" animates="NO" id="5pf-1O-vqm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTX-HH-Jko">
@@ -1932,7 +1915,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="mV8-cQ-zIQ" kind="show" id="kHS-54-7SA"/>
+                                    <segue destination="mV8-cQ-zIQ" kind="show" animates="NO" id="kHS-54-7SA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVh-L4-bZo">
@@ -1940,7 +1923,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="1Po-XG-Bcq" kind="show" id="0nD-pL-aMf"/>
+                                    <segue destination="1Po-XG-Bcq" kind="show" animates="NO" id="0nD-pL-aMf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zby-aw-6eY">
@@ -1948,7 +1931,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="1Po-XG-Bcq" kind="show" id="r8l-4P-6te"/>
+                                    <segue destination="1Po-XG-Bcq" kind="show" animates="NO" id="r8l-4P-6te"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buw-FT-0fM">
@@ -1956,7 +1939,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="1Po-XG-Bcq" kind="show" id="dDw-bC-bbu"/>
+                                    <segue destination="1Po-XG-Bcq" kind="show" animates="NO" id="dDw-bC-bbu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sons of Liberty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Mh-xO-bzs">
@@ -2037,6 +2020,9 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <rect key="frame" x="99" y="577" width="177" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
+                                <connections>
+                                    <segue destination="FKW-TI-Ic1" kind="show" animates="NO" id="jEQ-Mz-bK5"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tde-kY-qYj">
                                 <rect key="frame" x="156" y="583" width="62" height="32"/>
@@ -2089,7 +2075,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="8jb-mj-2g2" kind="show" id="xfQ-St-1wr"/>
+                                    <segue destination="8jb-mj-2g2" kind="show" animates="NO" id="xfQ-St-1wr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovL-iJ-z94">
@@ -2121,20 +2107,19 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It wont' be far now. Meet me at this spot for your next clue!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcV-ih-3Zr">
-                                <rect key="frame" x="31" y="13" width="313" height="70"/>
+                                <rect key="frame" x="31" y="4" width="313" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_06" translatesAutoresizingMaskIntoConstraints="NO" id="Jp3-rC-wBa">
-                                <rect key="frame" x="33" y="82" width="308" height="449"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhW-15-J5b">
                                 <rect key="frame" x="99" y="577" width="177" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
+                                <connections>
+                                    <segue destination="hNg-eZ-soB" kind="show" animates="NO" id="sRR-jP-MVb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFt-DH-3hJ">
                                 <rect key="frame" x="156" y="583" width="62" height="32"/>
@@ -2143,6 +2128,10 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_06" translatesAutoresizingMaskIntoConstraints="NO" id="Jp3-rC-wBa">
+                                <rect key="frame" x="-1" y="70" width="376" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8hV-bG-InO"/>
@@ -2178,7 +2167,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psB-Ej-CLo">
                                 <rect key="frame" x="26" y="352" width="322" height="271"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The site of Stamp Act Protests, the City's First Art Museum, the Croton Fountain and Aqueduct, a jail for American POWs during the Revolutinoary War, an Army Barracks, and the site of multiple Liberty Polls, City Hall Park has a long and rich history that will hopefully live on for centuries to come.  You've also reach the end of your scavenger hunt.  I hope you have been rewarded by the rich history of this neigborhood, and will continue to explore on your own for future treasures.</mutableString>
+                                <string key="text">The site of Stamp Act Protests, the City's First Art Museum, the Croton Fountain and Aqueduct, a jail for American POWs during the Revolutinoary War, an Army Barracks, and the site of multiple Liberty Polls, City Hall Park has a long and rich history that will hopefully live on for centuries to come.  You've also reach the end of your scavenger hunt.  I hope you have been rewarded by the rich history of this neigborhood, and will continue to explore on your own for future treasures.</string>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2226,7 +2215,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="eLC-EC-E8c" kind="show" id="UBG-41-2mQ"/>
+                                    <segue destination="eLC-EC-E8c" kind="show" animates="NO" id="UBG-41-2mQ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9p-bj-D1k">
@@ -2260,7 +2249,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rJ-xO-zem">
                                 <rect key="frame" x="40" y="20" width="294" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Plaques and engravings mark much of the history of this park. Note the different uses this part has served over the years, before setting as the location of the city's place of municipal government.  For your final clue, which of the following has NOT been built in and around the park over the past several centuries?</mutableString>
+                                <string key="text">Plaques and engravings mark much of the history of this park. Note the different uses this part has served over the years, before setting as the location of the city's place of municipal government.  For your final clue, which of the following has NOT been built in and around the park over the past several centuries?</string>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2270,7 +2259,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="29z-Xm-RhY" kind="show" id="Qcg-zA-jks"/>
+                                    <segue destination="29z-Xm-RhY" kind="show" animates="NO" id="Qcg-zA-jks"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6p-Wo-wC2">
@@ -2278,7 +2267,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="29z-Xm-RhY" kind="show" id="kt1-Nf-hOA"/>
+                                    <segue destination="29z-Xm-RhY" kind="show" animates="NO" id="kt1-Nf-hOA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbr-bf-Q5N">
@@ -2286,7 +2275,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="29z-Xm-RhY" kind="show" id="c50-0K-Cja"/>
+                                    <segue destination="29z-Xm-RhY" kind="show" animates="NO" id="c50-0K-Cja"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LF2-qx-uSx">
@@ -2294,7 +2283,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="29z-Xm-RhY" kind="show" id="R1e-7c-d9z"/>
+                                    <segue destination="29z-Xm-RhY" kind="show" animates="NO" id="R1e-7c-d9z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUy-Bs-WiH">
@@ -2302,7 +2291,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="29z-Xm-RhY" kind="show" id="FWd-ua-1qa"/>
+                                    <segue destination="29z-Xm-RhY" kind="show" animates="NO" id="FWd-ua-1qa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxL-tk-ByB">
@@ -2310,7 +2299,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="XvJ-3d-JvK" kind="show" id="jFQ-rI-HkE"/>
+                                    <segue destination="XvJ-3d-JvK" kind="show" animates="NO" id="jFQ-rI-HkE"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Post Office" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hS0-qp-enE">
@@ -2379,7 +2368,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTQ-QE-T4n">
                                 <rect key="frame" x="40" y="0.0" width="294" height="268"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Some of the richest history of New York City can be found in this unassuming park near present day City Hall.  City Hall Park represented the original "Commons" for the city, a place of quiet respite for regular citizens compared to the luxury and splendor reserved for the higher class citizens further south in Bowling Green.  Take a stroll around!  Click NEXT to continue.</mutableString>
+                                <string key="text">Some of the richest history of New York City can be found in this unassuming park near present day City Hall.  City Hall Park represented the original "Commons" for the city, a place of quiet respite for regular citizens compared to the luxury and splendor reserved for the higher class citizens further south in Bowling Green.  Take a stroll around!  Click NEXT to continue.</string>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2389,7 +2378,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="eLC-EC-E8c" kind="show" id="gB9-9y-Fw4"/>
+                                    <segue destination="eLC-EC-E8c" kind="show" animates="NO" id="gB9-9y-Fw4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQA-Qt-FVc">
@@ -2424,23 +2413,19 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our next and last clue is just nearby so follow the map! Click NEXT When You've Arrived!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gip-2C-hAU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our next and last clue is just nearby so follow the map! Click NEXT When You've Arrived!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gip-2C-hAU">
                                 <rect key="frame" x="51" y="0.0" width="294" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_08" translatesAutoresizingMaskIntoConstraints="NO" id="JEC-nu-JNr">
-                                <rect key="frame" x="36" y="81" width="323" height="473"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RM0-v2-QJF">
                                 <rect key="frame" x="99" y="576" width="177" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Tyr-K1-Iup" kind="show" id="InO-cE-ihZ"/>
+                                    <segue destination="Tyr-K1-Iup" kind="show" animates="NO" id="InO-cE-ihZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ru7-54-1Z1">
@@ -2450,6 +2435,10 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_08" translatesAutoresizingMaskIntoConstraints="NO" id="JEC-nu-JNr">
+                                <rect key="frame" x="27" y="74" width="343" height="494"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="O2W-2B-lwD"/>
@@ -2494,7 +2483,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="P8b-uV-iXS" kind="show" id="N5w-jH-fRq"/>
+                                    <segue destination="P8b-uV-iXS" kind="show" animates="NO" id="N5w-jH-fRq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeS-1Q-wrm">
@@ -2548,7 +2537,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="TYD-FE-aZU" kind="show" id="waO-O4-sip"/>
+                                    <segue destination="TYD-FE-aZU" kind="show" animates="NO" id="waO-O4-sip"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIZ-ng-dk2">
@@ -2592,7 +2581,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="yWy-CV-elo" kind="show" id="JvP-PA-lFQ"/>
+                                    <segue destination="yWy-CV-elo" kind="show" animates="NO" id="JvP-PA-lFQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmq-qH-6W6">
@@ -2600,7 +2589,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="2M8-dr-NpF" kind="show" id="MrW-yG-s3U"/>
+                                    <segue destination="2M8-dr-NpF" kind="show" animates="NO" id="MrW-yG-s3U"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kim-dW-tNf">
@@ -2608,7 +2597,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="2M8-dr-NpF" kind="show" id="6qr-dj-Z9v"/>
+                                    <segue destination="2M8-dr-NpF" kind="show" animates="NO" id="6qr-dj-Z9v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z10-Nw-gxF">
@@ -2616,7 +2605,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="2M8-dr-NpF" kind="show" id="I9w-Z9-vhJ"/>
+                                    <segue destination="2M8-dr-NpF" kind="show" animates="NO" id="I9w-Z9-vhJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGW-dc-idR">
@@ -2624,7 +2613,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="2M8-dr-NpF" kind="show" id="R0B-xE-Sq0"/>
+                                    <segue destination="2M8-dr-NpF" kind="show" animates="NO" id="R0B-xE-Sq0"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turkey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLB-ab-CNa">
@@ -2688,10 +2677,10 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlU-W8-jGc">
-                                <rect key="frame" x="21" y="385" width="333" height="173"/>
+                                <rect key="frame" x="21" y="385" width="333" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The oldest surviving church building in Manhattan, St. Paul's Chapel was completed in 1766. George Washington, along with other members of Congress, attended services here in the 1780s.  Click NEXT when yer ready to get your clue!</string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <mutableString key="text">The oldest surviving church building in Manhattan, St. Paul's Chapel was completed in 1766. George Washington, along with other members of Congress, attended services here in the 1780s.  Trinity Church was under reconstruction after a great fire during this period.  Click NEXT when yer ready to get your clue!</mutableString>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87U-uE-A7B">
@@ -2699,7 +2688,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="TYD-FE-aZU" kind="show" id="rcs-lg-boq"/>
+                                    <segue destination="TYD-FE-aZU" kind="show" animates="NO" id="rcs-lg-boq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYL-Wl-nNj">
@@ -2730,8 +2719,8 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faL-ae-wK5">
-                                <rect key="frame" x="51" y="-16" width="273" height="143"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faL-ae-wK5">
+                                <rect key="frame" x="51" y="0.0" width="273" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">We'll take a longer walk for our penultimate clue.  Make your way to the destination below to get things going. Click NEXT When You're Ready!</string>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
@@ -2743,7 +2732,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="uxU-M4-wXQ" kind="show" id="XQ6-S3-RTK"/>
+                                    <segue destination="uxU-M4-wXQ" kind="show" animates="NO" id="XQ6-S3-RTK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8x3-Zm-T59">
@@ -2754,7 +2743,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_07" translatesAutoresizingMaskIntoConstraints="NO" id="FFh-zI-dRq">
-                                <rect key="frame" x="34" y="101" width="306" height="464"/>
+                                <rect key="frame" x="26" y="100" width="328" height="474"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -2797,7 +2786,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="EP5-4j-BUq" kind="show" id="wlK-qm-qf2"/>
+                                    <segue destination="EP5-4j-BUq" kind="show" animates="NO" id="wlK-qm-qf2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqK-oc-smE">
@@ -2842,7 +2831,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cds-0L-Cfu">
                                 <rect key="frame" x="36" y="66" width="302" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The 110ft. wide pediment shows a female centerpiece figure, representing Integrity.  The figures surrounding her symbollizing Science, Industry, Agriculture and Mining.  Go ahead and give those scultures another good count, and hit BACK when yer ready!</string>
+                                <string key="text">The 110ft. wide pediment shows a female centerpiece figure, representing Integrity.  The figures surrounding her symbollizing Science, Industry, Agriculture and Mining.  Go ahead and give those sculptures another good count, and hit BACK when yer ready!</string>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2852,7 +2841,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="1fS-eb-u4P" kind="show" id="ddn-xL-3fl"/>
+                                    <segue destination="1fS-eb-u4P" kind="show" animates="NO" id="ddn-xL-3fl"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a04-ML-3ch">
@@ -2896,7 +2885,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="qKN-7k-wyr" kind="show" id="0xu-DJ-J52"/>
+                                    <segue destination="qKN-7k-wyr" kind="show" animates="NO" id="0xu-DJ-J52"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSt-IA-Pb2">
@@ -2904,7 +2893,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="qKN-7k-wyr" kind="show" id="58a-rY-ROl"/>
+                                    <segue destination="qKN-7k-wyr" kind="show" animates="NO" id="58a-rY-ROl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjA-1Q-9gd">
@@ -2912,7 +2901,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="qKN-7k-wyr" kind="show" id="Rcn-ef-xHt"/>
+                                    <segue destination="qKN-7k-wyr" kind="show" animates="NO" id="Rcn-ef-xHt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35P-1A-kcl">
@@ -2920,7 +2909,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="Ve9-dg-zQm" kind="show" id="ts4-5C-pdA"/>
+                                    <segue destination="Ve9-dg-zQm" kind="show" animates="NO" id="ts4-5C-pdA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrt-KS-6Yh">
@@ -2928,7 +2917,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="qKN-7k-wyr" kind="show" id="dra-Yq-u5W"/>
+                                    <segue destination="qKN-7k-wyr" kind="show" animates="NO" id="dra-Yq-u5W"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-yx-ov2">
@@ -3003,7 +2992,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="1fS-eb-u4P" kind="show" id="KoI-Zg-tJ4"/>
+                                    <segue destination="1fS-eb-u4P" kind="show" animates="NO" id="KoI-Zg-tJ4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcd-V9-gMl">
@@ -3070,22 +3059,23 @@ When you are ready, hit the BACK button to give it another shot!</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ddn-xL-3fl"/>
-        <segue reference="58a-rY-ROl"/>
+        <segue reference="Rcn-ef-xHt"/>
         <segue reference="waO-O4-sip"/>
-        <segue reference="R0B-xE-Sq0"/>
+        <segue reference="6qr-dj-Z9v"/>
         <segue reference="UBG-41-2mQ"/>
-        <segue reference="FWd-ua-1qa"/>
+        <segue reference="c50-0K-Cja"/>
         <segue reference="r8l-4P-6te"/>
-        <segue reference="PxN-Rb-39u"/>
-        <segue reference="ReP-2J-WoE"/>
+        <segue reference="jEQ-Mz-bK5"/>
+        <segue reference="ugs-aA-lxY"/>
+        <segue reference="EOU-t6-0QW"/>
         <segue reference="ugE-3N-Reh"/>
-        <segue reference="GIN-MG-P2O"/>
-        <segue reference="MkO-1Q-WeT"/>
-        <segue reference="Rvh-G9-Jjl"/>
-        <segue reference="bCO-qF-gT8"/>
+        <segue reference="vgR-jN-Hjf"/>
+        <segue reference="sBa-ML-J5Z"/>
+        <segue reference="Jgc-ls-klc"/>
+        <segue reference="t1e-uH-THj"/>
         <segue reference="oGF-x1-n4T"/>
-        <segue reference="VzS-Tz-Gb4"/>
+        <segue reference="q4G-RY-Fmm"/>
         <segue reference="w4j-Ir-tJc"/>
-        <segue reference="UUj-dC-E3D"/>
+        <segue reference="FmV-NX-u0E"/>
     </inferredMetricsTieBreakers>
 </document>
