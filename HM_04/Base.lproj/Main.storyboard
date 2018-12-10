@@ -720,11 +720,9 @@ Since that time, Federal Hall has served as a Customs House and Treasury Buildin
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Shiver Me Timbers You Got It!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exd-7X-WNC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shiver Me Timbers You Got It!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exd-7X-WNC">
                                 <rect key="frame" x="14" y="6" width="347" height="76"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="gdi-Al-ruX"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
                                 <color key="textColor" red="0.81834179159999998" green="0.49573516849999999" blue="0.18667763470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1383,7 +1381,7 @@ Hit NEXT To Get Your Clue!
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="bwn_button"/>
                                 <connections>
-                                    <segue destination="cPJ-ZP-ZXx" kind="show" id="GIN-MG-P2O"/>
+                                    <segue destination="cPJ-ZP-ZXx" kind="show" animates="NO" id="GIN-MG-P2O"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPH-5w-pkb">
@@ -2165,10 +2163,25 @@ When you are ready, hit the BACK button to give it another shot!</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psB-Ej-CLo">
-                                <rect key="frame" x="26" y="352" width="322" height="271"/>
+                                <rect key="frame" x="18" y="339" width="339" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The site of Stamp Act Protests, the City's First Art Museum, the Croton Fountain and Aqueduct, a jail for American POWs during the Revolutinoary War, an Army Barracks, and the site of multiple Liberty Polls, City Hall Park has a long and rich history that will hopefully live on for centuries to come.  You've also reach the end of your scavenger hunt.  I hope you have been rewarded by the rich history of this neigborhood, and will continue to explore on your own for future treasures.</string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSW-4V-APt">
+                                <rect key="frame" x="99" y="576" width="177" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bwn_button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="8ET-ky-lpg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="START OVER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQh-xt-A49">
+                                <rect key="frame" x="125" y="583" width="128" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -3069,7 +3082,7 @@ When you are ready, hit the BACK button to give it another shot!</string>
         <segue reference="ugs-aA-lxY"/>
         <segue reference="EOU-t6-0QW"/>
         <segue reference="ugE-3N-Reh"/>
-        <segue reference="vgR-jN-Hjf"/>
+        <segue reference="GIN-MG-P2O"/>
         <segue reference="sBa-ML-J5Z"/>
         <segue reference="Jgc-ls-klc"/>
         <segue reference="t1e-uH-THj"/>
